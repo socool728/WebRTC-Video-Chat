@@ -1,12 +1,12 @@
-# MiroTalk Open Source Community Code of Conduct
+# Talking App Community Code of Conduct
 
 ## About the Code of Conduct
 
-Equality is a core value at MiroTalk. We believe a diverse and inclusive
+Equality is a core value at Talking App. We believe a diverse and inclusive
 community fosters innovation and creativity, and are committed to building a
 culture where everyone feels included.
 
-MiroTalk open-source projects are committed to providing a friendly, safe, and
+Talking App open-source projects are committed to providing a friendly, safe, and
 welcoming environment for all, regardless of gender identity and expression,
 sexual orientation, disability, physical appearance, body size, ethnicity, nationality,
 race, age, religion, level of experience, education, socioeconomic status, or
@@ -18,8 +18,7 @@ together effectively, productively, and respectfully in our open source communit
 It also establishes a mechanism for reporting issues and resolving conflicts.
 
 All questions and reports of abusive, harassing, or otherwise unacceptable behavior
-in a MiroTalk open-source project may be reported by contacting the MiroTalk
-Open Source Conduct Committee at ossconduct.mirotalk@gmail.com.
+in a Talking App open-source project may be reported by contacting the Talking App
 
 ## Our Pledge
 
@@ -77,8 +76,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the MiroTalk Open Source Conduct Committee
-at ossconduct.mirotalk@gmail.com. All complaints will be reviewed and investigated
+reported by contacting the Talking App. All complaints will be reviewed and investigated
 and will result in a response that is deemed necessary and appropriate to the
 circumstances. The committee is obligated to maintain confidentiality with
 regard to the reporter of an incident. Further details of specific enforcement
@@ -86,24 +84,4 @@ policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership and the MiroTalk Open Source Conduct
-Committee.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][contributor-covenant-home],
-version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code_of_conduct.html][v1.4].
-It includes adaptions and additions from [Go Community Code of Conduct][golang-coc],
-[CNCF Code of Conduct][cncf-coc], and [Microsoft Open Source Code of Conduct][microsoft-coc].
-
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
-
-[contributor-covenant-home]: https://www.contributor-covenant.org
-[v1.4]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-[golang-coc]: https://golang.org/conduct
-[cncf-coc]: https://github.com/cncf/foundation/blob/master/code-of-conduct.md
-[microsoft-coc]: https://opensource.microsoft.com/codeofconduct/
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+members of the project's leadership.

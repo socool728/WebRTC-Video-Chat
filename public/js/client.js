@@ -14,7 +14,7 @@
  * @license For open source use: AGPLv3
  * @license For commercial use or closed source, contact us at license.mirotalk@gmail.com or purchase directly from CodeCanyon
  * @license CodeCanyon: https://codecanyon.net/item/mirotalk-p2p-webrtc-realtime-video-conferences/38376661
- * @author  Miroslav Pejic - miroslav.pejic.85@gmail.com
+ * @author  Rabih Sadi - rabihsadi43@gmail.com
  * @version 1.3.32
  *
  */
@@ -710,7 +710,7 @@ let isPeerAuthEnabled = false; // Username and Password required in the URL para
 
 // survey
 let surveyActive = true; // when leaving the room give a feedback, if false will be redirected to newcall page
-let surveyURL = 'https://www.questionpro.com/t/AUs7VZq00L';
+// let surveyURL = 'https://www.questionpro.com/t/AUs7VZq00L';
 
 // Redirect on leave room
 let redirectActive = false;
@@ -9840,31 +9840,25 @@ function showAbout() {
         position: 'center',
         title: '<strong>WebRTC P2P</strong>',
         imageAlt: 'mirotalk-about',
-        imageUrl: images.about,
+        // imageUrl: images.about,
         customClass: { image: 'img-about' },
         html: `
         <br/>
         <div id="about">
-            <button 
-                id="support-button" 
-                data-umami-event="Support button" 
-                class="pulsate" 
-                onclick="window.open('https://codecanyon.net/user/miroslavpejic85')">
-                <i class="${className.heart}" ></i>&nbsp;Support
-            </button>
+            
             <br /><br />
             Author:<a 
                 id="linkedin-button" 
                 data-umami-event="Linkedin button" 
-                href="https://www.linkedin.com/in/miroslav-pejic-976a07101/" target="_blank"> 
-                Miroslav Pejic
+                href="https://www.linkedin.com/in/rabih-sadi" target="_blank"> 
+                Rabih Sadi
             </a>
             <br /><br />
             Email:<a 
                 id="email-button" 
                 data-umami-event="Email button" 
-                href="mailto:miroslav.pejic.85@gmail.com?subject=MiroTalk P2P info"> 
-                miroslav.pejic.85@gmail.com
+                href="mailto:rabihsadi43@gmail.com?subject=MiroTalk P2P info"> 
+                rabihsadi43@gmail.com
             </a>
         </div>
         `,
@@ -9895,16 +9889,14 @@ function leaveFeedback() {
         showDenyButton: true,
         background: swBg,
         imageUrl: images.feedback,
-        title: 'Leave a feedback',
-        text: 'Do you want to rate your MiroTalk experience?',
+        title: 'Leave this meeting',
+        text: 'Do you want to leave this meeting?',
         confirmButtonText: `Yes`,
         denyButtonText: `No`,
         showClass: { popup: 'animate__animated animate__fadeInDown' },
         hideClass: { popup: 'animate__animated animate__fadeOutUp' },
     }).then((result) => {
         if (result.isConfirmed) {
-            openURL(surveyURL);
-        } else {
             redirectOnLeave();
         }
     });

@@ -30,19 +30,19 @@ const footer = document.getElementById('footer');
 
 const brand = {
     app: {
-        name: 'MiroTalk',
-        title: 'MiroTalk<br />Free browser based Real-time video calls.<br />Simple, Secure, Fast.',
+        name: 'Talking App',
+        title: 'Talking App<br />Browser based Real-time video calls.<br />Simple, Secure, Fast.',
         description:
             'Start your next video call with a single click. No download, plug-in, or login is required. Just get straight to talking, messaging, and sharing your screen.',
     },
     site: {
-        landingTitle: 'MiroTalk a Free Secure Video Calls, Chat & Screen Sharing.',
-        newCallTitle: 'MiroTalk a Free Secure Video Calls, Chat & Screen Sharing.',
-        loginTitle: 'MiroTalk - Host Protected login required.',
-        clientTitle: 'MiroTalk WebRTC Video call, Chat Room & Screen Sharing.',
-        privacyPolicyTitle: 'MiroTalk - privacy and policy.',
+        landingTitle: 'Talking App Secure Video Calls, Chat & Screen Sharing.',
+        newCallTitle: 'Talking App Secure Video Calls, Chat & Screen Sharing.',
+        loginTitle: 'Talking App - Host Protected login required.',
+        clientTitle: 'Talking App WebRTC Video call, Chat Room & Screen Sharing.',
+        privacyPolicyTitle: 'Talking App - privacy and policy.',
         stunTurnTitle: 'Test Stun/Turn Servers.',
-        notFoundTitle: 'MiroTalk - 404 Page not found.',
+        notFoundTitle: 'Talking App - 404 Page not found.',
         shortcutIcon: '../images/logo.svg',
         appleTouchIcon: '../images/logo.svg',
     },
